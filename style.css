@@ -1,0 +1,102 @@
+/* General Body and Text Styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff69b4;
+    /* Pink */
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header button {
+    padding: 10px 20px;
+    background-color: #ff4500;
+    /* Red */
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+header button:hover {
+    background-color: #d32f2f;
+    /* Darker red */
+}
+
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #ffd700;
+    /* Yellow */
+    color: black;
+}
+
+.hero img {
+    max-width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Section Styles */
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #8a2be2;
+    /* Purple */
+    color: white;
+    border-radius: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #32cd32;
+    /* Green */
+    color: white;
+}
+
+
+/* Dark Mode Styles */
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: #6200ea;
+    /* Dark purple */
+}
+
+.dark-mode button {
+    background-color: white;
+    color: black;
+}
